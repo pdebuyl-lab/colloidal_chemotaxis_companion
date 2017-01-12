@@ -90,7 +90,8 @@ replicated with the values `active_sphere` and `nanomotor` replacing
 `1.00`.
 
 The data from these simulations can be analyzed with the notebook
-`colloidal_chemotaxis.ipynb`.
+`colloidal_chemotaxis.ipynb`. The notebook also contains a full implementation
+of the stochastic model for chemotaxis.
 
 ### Diffusion simulations
 
