@@ -58,7 +58,12 @@ with flags `-fopenmp -Wall -Wextra -Wconversion -std=f2008-pedantic -O3`.
 The stochastic simulations and data analysis were run with Python 3.5 using the
 interpreter and libraries listed below:
 ```
-TODO
+Platform: linux
+Python: 3.4.3 (default, Nov 17 2016, 01:08:31) 
+[GCC 4.8.4]
+Machine and architecture x86_64 64bit ELF
+NumPy: 1.12.0rc2
+SciPy: 0.18.1
 ```
 
 The Python code is provided in [Jupyter](http://jupyter.org/) notebooks.
