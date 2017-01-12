@@ -4,12 +4,13 @@ This repository contains extra information and code for the article *Passive
 and active colloidal chemotaxis in a microfluidic channel: mesoscopic and
 stochastic models* by Pierre de Buyl and Laurens Deprez.
 
+The license for the code in this repository is the 3-clause BSD, found in the
+file LICENSE.
+
 ## Code and platform information for the mesoscopic simulations
 
 The mesoscopic simulations are performed with the code RMPCDMD that is
 implemented in Fortran 2008 with a C extension.
-
-Parameter files.
 
 ### Hardware
 
@@ -68,3 +69,39 @@ SciPy: 0.18.1
 
 The Python code is provided in [Jupyter](http://jupyter.org/) notebooks.
 
+## Information on running and analyzing the simulations
+
+### Chemotaxis simulations
+
+To reproduce the simulations of the paper, you need to install the software
+[RMPCDMD](http://lab.pdebuyl.be/rmpcdmd/). After installation of RMPCDMD, with
+the `rmpcdmd` command-line program available in your terminal, and of the
+Python program `sftmpl` (`pip install --user sftmpl`, Python 2 and 3
+compatible. This program is used to generate parameter files from a template),
+you may run the command
+
+```
+make passive_sphere RUN=001 EPS=1.00
+```
+
+and repeat for required the number of realizations. This process should be
+replicated with the values `active_sphere` and `nanomotor` replacing
+`passive_sphere` and the values `0.25`, `0.50`, `2.00` and `4.00` replacing
+`1.00`.
+
+The data from these simulations can be analyzed with the notebook
+`colloidal_chemotaxis.ipynb`.
+
+### Diffusion simulations
+
+To reproduce the equilibrium simulations used to calibrate the dimer nanomotor
+model, run the RMPCDMD program `chemotactic_dimer` with the command
+
+```
+rmpcdmd run chemotactic_cell dimer_diffusion.p cceq_001.h5 auto
+```
+
+for the required number of realizations.
+
+The data from these simulations can be analyzed with the notebook
+`diffusion.ipynb`.
