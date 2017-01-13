@@ -65,6 +65,7 @@ Python: 3.4.3 (default, Nov 17 2016, 01:08:31)
 Machine and architecture x86_64 64bit ELF
 NumPy: 1.12.0rc2
 SciPy: 0.18.1
+Matplotlib: 2.0.0rc2
 ```
 
 The Python code is provided in [Jupyter](http://jupyter.org/) notebooks.
