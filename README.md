@@ -66,6 +66,7 @@ Machine and architecture x86_64 64bit ELF
 NumPy: 1.12.0rc2
 SciPy: 0.18.1
 Matplotlib: 2.0.0rc2
+h5py: 2.2.1
 ```
 
 The Python code is provided in [Jupyter](http://jupyter.org/) notebooks.
