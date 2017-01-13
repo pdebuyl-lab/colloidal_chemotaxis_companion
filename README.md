@@ -93,6 +93,8 @@ The data from these simulations can be analyzed with the notebook
 `colloidal_chemotaxis.ipynb`. The notebook also contains a full implementation
 of the stochastic model for chemotaxis.
 
+For information, these simulations required about 700 core days.
+
 ### Diffusion simulations
 
 To reproduce the equilibrium simulations used to calibrate the dimer nanomotor
@@ -106,3 +108,5 @@ for the required number of realizations.
 
 The data from these simulations can be analyzed with the notebook
 `diffusion.ipynb`.
+
+For information, these simulations required about 1600 core days.
