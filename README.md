@@ -56,16 +56,16 @@ with flags `-fopenmp -Wall -Wextra -Wconversion -std=f2008-pedantic -O3`.
 
 ## Platform information for the stochastic simulations and data analysis
 
-The stochastic simulations and data analysis were run with Python 3.5 using the
+The stochastic simulations and data analysis were run with Python 3.4 using the
 interpreter and libraries listed below:
 ```
 Platform: linux
-Python: 3.4.3 (default, Nov 17 2016, 01:08:31) 
+Python: 3.4.3 (default, Nov 17 2016, 01:08:31)
 [GCC 4.8.4]
 Machine and architecture x86_64 64bit ELF
-NumPy: 1.12.0rc2
+NumPy: 1.12.0
 SciPy: 0.18.1
-Matplotlib: 2.0.0rc2
+Matplotlib: 2.0.0
 h5py: 2.2.1
 ```
 
