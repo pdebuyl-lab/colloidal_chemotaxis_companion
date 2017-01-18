@@ -112,3 +112,26 @@ The data from these simulations can be analyzed with the notebook
 `diffusion.ipynb`.
 
 For information, these simulations required about 1600 core days.
+
+### Constant gradient model
+
+To reproduce the "constant gradient" stochastic simulations, first compile the Cython module.
+In the `cg_model` directory, execute
+
+```
+python3 setup.py build_ext --inplace
+```
+
+then run the simulations 40 times for `N_only`
+
+```
+python3 run_cg_nm.py N_only_001.h5 --n-steps 100000 --n-inner-steps 25
+
+```
+
+and 20 times for `N_C`
+
+```
+python3 run_cg_nm.py N_C_001.h5 --n-steps 100000 --n-inner-steps 25 --C-force
+
+```
