@@ -3,9 +3,10 @@
 This repository contains extra information and code for the article *Passive
 and active colloidal chemotaxis in a microfluidic channel: mesoscopic and
 stochastic models* by Pierre de Buyl and Laurens Deprez.
-The reference to the paper can be found in the [arXiv
-listing](https://arxiv.org/a/debuyl_p_1.html) or the [ORCID
-profile](https://orcid.org/0000-0002-6640-6463) of Pierre de Buyl.
+The preprint is available at
+[[arXiv:1701.05020]](https://arxiv.org/abs/1701.05020) and will be available also
+in the [ORCID profile](https://orcid.org/0000-0002-6640-6463) of Pierre de
+Buyl.
 
 The license for the code in this repository is the 3-clause BSD, found in the
 file LICENSE.
